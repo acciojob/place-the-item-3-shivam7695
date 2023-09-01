@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+ #holder {
+      display: flex;
+      flex-wrap: wrap; 
+      justify-content: space-between; 
+    }
+
+   
+    .item {
+      width: 30%; 
+      margin-bottom: 10px;
+      background-color: #ccc; 
+      padding: 10px;
+      box-sizing: border-box;
+    }
